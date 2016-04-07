@@ -7,7 +7,7 @@ http://nodeschool.io/#workshopper-list
 |Workshop|Status|Resources|
 |-------------|------|---|
 |Learnyounode|In progress||
-|Git-it|Complete|[jlord.github.io/git-it](jlord.github.io/git-it)|
+|Git-it|Complete|[jlord.github.io/git-it](http://jlord.github.io/git-it)|
 |How to NPM||
 |Scope chains and closures||
 |Stream adventure||
