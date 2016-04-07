@@ -4,9 +4,9 @@ Tracking my progress through Node School
 
 http://nodeschool.io/#workshopper-list
 
-|Workshop|Status|
-|-------------|------|
-|Learnyounode|In progress|
+|Workshop|Status|Resources|
+|-------------|------|---|
+|Learnyounode|In progress||
 |Git-it|Complete|jlord.github.io/git-it|
 |How to NPM||
 |Scope chains and closures||
