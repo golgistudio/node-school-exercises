@@ -8,17 +8,17 @@ http://nodeschool.io/#workshopper-list
 |-------------|------|---|
 |Learnyounode|In progress||
 |Git-it|Complete|[jlord.github.io/git-it](http://jlord.github.io/git-it)|
-|How to NPM||
-|Scope chains and closures||
-|Stream adventure||
-|ExpressWorks||
-|Thinking in React||
-|Browserify Adventure||
-|Tower of Babel||
-|Async You|In Progress|
-|Functional Javascript||
-|Promise it Won't Hurt||
-|Bug Clinic||
-|Count to 6||
-|Lololodash|https://lodash.com/|
-|Learn you react||
+|How to NPM|||
+|Scope chains and closures|||
+|Stream adventure|||
+|ExpressWorks|||
+|Thinking in React|||
+|Browserify Adventure|||
+|Tower of Babel|||
+|Async You|In Progress||
+|Functional Javascript|||
+|Promise it Won't Hurt|||
+|Bug Clinic|||
+|Count to 6|||
+|Lololodash|Complete|https://lodash.com/|
+|Learn you react|||
