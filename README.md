@@ -20,5 +20,5 @@ http://nodeschool.io/#workshopper-list
 |Promise it Won't Hurt||
 |Bug Clinic||
 |Count to 6||
-|Lololodash||
+|Lololodash|https://lodash.com/|
 |Learn you react||
