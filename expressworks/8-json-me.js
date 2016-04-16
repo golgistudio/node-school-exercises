@@ -1,14 +1,16 @@
-var express = require('express')
+var path = require('path');
+var fs = require('fs');
+var express = require('express');
+var app = express();
 
-var stylus = require('stylus')
+app.get('/books', function (req, res) {
+  fs.readFile(process.argv[3], function (err, data) {
+    if (err) {
+      throw err;
+    }
+    object = JSON.parse(data);
+    res.send(object);
+  });
+});
 
-var app = express()
-app.use(express.static(process.argv[3]));
-app.use(stylus.middleware(process.argv[3]));
-
-app.get('/main.css', function(req, res) {
-	res.send('hello')
-})
-
-app.listen(process.argv[2])
-
+app.listen(process.argv[2]);

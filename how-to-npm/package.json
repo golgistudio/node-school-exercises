@@ -1,15 +1,20 @@
 {
-  "name": "@laurie.reynolds/how-to-npm",
-  "version": "0.0.1",
-  "description": "",
+  "name": "@golgistudio/how-to-npm",
+  "version": "0.0.2",
+  "description": "test package",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "author": "Laurie Reynolds",
-	"repository": "https://github.com/LaurieSReynolds/node-school-exercises",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurieSReynolds/node-school-exercises.git"
+  },
   "license": "MIT",
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
-  }
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/LaurieSReynolds/node-school-exercises/issues"
+  },
+  "homepage": "https://github.com/LaurieSReynolds/node-school-exercises#readme"
 }
