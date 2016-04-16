@@ -15,7 +15,7 @@ http://nodeschool.io/#workshopper-list
 |thinking-in-react||5|learn react's philosophy by building a ui from scratch|||
 |browserify-adventure|In progress|10|||problems getting verification|
 |tower-of-babel|Complete|12|use npm and node style require() in the browser with browserify|||
-|async-you|In Progress||promises in javscript to handle async operations||needs Node 5.0|
+|async-you|Complete||promises in javscript to handle async operations||needs Node 5.0|
 |functional-javascript-workshop|Complete|18||||
 |promise-it-wont-hurt||13|promises to handle async operations|||
 |bug-clinic||13|tools and techniques to improve your debuggins skills|||
