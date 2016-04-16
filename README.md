@@ -8,7 +8,7 @@ http://nodeschool.io/#workshopper-list
 |-------------|------|---|---|---|---|
 |learnyounode|Complete|13|basics of node: asynchronous i/o, http|||
 |git-it|Complete|11|Git and Github basics|[jlord.github.io/git-it](http://jlord.github.io/git-it)||
-|how-to-npm||16|use and create npm modules||Problems creating user and pushing to npm|
+|how-to-npm|Complete|16|use and create npm modules||Problems creating user and pushing to npm - on mac|
 |scope-chains-closures|Complete|5|scopes, chains, closures, garbage collection|||
 |stream-adventure|Complete|15|Learn to compose streaming interfaces with .pipe()|||
 |expressworks|In Progress|8|basics of express framework|||
