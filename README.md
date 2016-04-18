@@ -21,4 +21,4 @@ http://nodeschool.io/#workshopper-list
 |bug-clinic||13|tools and techniques to improve your debuggins skills|||
 |count-to-6|Complete|9|use some features from es6|||
 |lololodash|Complete|9|learn lodash(fork of underscore) to handle arrays|https://lodash.com/||
-|learnyoureact|In Progress|11|react and server side rendering|||
+|learnyoureact|Complete|11|react and server side rendering|||
