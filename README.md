@@ -12,7 +12,7 @@ http://nodeschool.io/#workshopper-list
 |scope-chains-closures|Complete|5|scopes, chains, closures, garbage collection|||
 |stream-adventure|Complete|15|Learn to compose streaming interfaces with .pipe()|||
 |expressworks|Complete|8|basics of express framework|||
-|thinking-in-react||5|learn react's philosophy by building a ui from scratch|||
+|thinking-in-react|In progress|5|learn react's philosophy by building a ui from scratch|||
 |browserify-adventure|In progress|10|||problems getting verification|
 |tower-of-babel|Complete|12|use npm and node style require() in the browser with browserify|||
 |async-you|Complete||promises in javscript to handle async operations||needs Node 5.0|
