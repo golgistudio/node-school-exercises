@@ -17,7 +17,7 @@ http://nodeschool.io/#workshopper-list
 |tower-of-babel|Complete|12|use npm and node style require() in the browser with browserify|||
 |async-you|Complete||promises in javscript to handle async operations||needs Node 5.0|
 |functional-javascript-workshop|Complete|18||||
-|promise-it-wont-hurt|In Progress|13|promises to handle async operations|||
+|promise-it-wont-hurt|In Progress|13|promises to handle async operations||problems with #11 - multiple-promises|
 |bug-clinic|In Progress|13|tools and techniques to improve your debuggins skills|||
 |count-to-6|Complete|9|use some features from es6|||
 |lololodash|Complete|9|learn lodash(fork of underscore) to handle arrays|https://lodash.com/||
