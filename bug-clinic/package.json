@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.0",
+    "domain": "0.0.1",
+    "replify": "^1.2.0",
+    "replpad": "^0.14.0",
+    "stackup": "^1.0.1"
+  }
 }
