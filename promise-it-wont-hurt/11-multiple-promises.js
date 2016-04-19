@@ -1,34 +1,39 @@
-'use strict';
+var q = require('q') 
+var def1 = q.defer()
+var def2 = q.defer();
 
-function all(promise1, promise2) {
+function all (prom1, prom2) {
+  var groupDef = q.defer()
+  var counter = 0
+  var val1
+  var val2;
 
-	return  new Promise(function(resolve, reject) {
-		var counter = 0;
-		var output = [];
+  prom1
+  .then(function (result) {
+    val1 = result;
+    ++counter;
+    if (counter >=2) groupDef.resolve([val1, val2]);
+  })
+  .then(null, groupDef.reject)
+  .done();
 
-		promise1.then(function(result) {
-			counter++;
-			output[0] = result;
-			if (counter >= 2) {
-				resolve(output)
-			}
-		});
+  prom2
+  .then(function (result) {
+    val2 = result;
+    ++counter;
+    if (counter >=2) groupDef.resolve([val1, val2]);
+  })
+  .then(null, groupDef.reject)
+  .done();
 
-		promise2.then(function(result) {
-			counter++;
-			output[1] = result;
-
-			if (counter >= 2) {
-				resolve(output)
-			}
-		});
-	});
+  return groupDef.promise;
 }
 
+all(def1.promise, def2.promise)
+.then(console.log)
+.done();
 
-var p1 = new Promise(console.log, null);
-var p2 = new Promise(console.log, null);
-
-setTimeout(function() {
-	all(p1, p2)
+setTimeout(function () {
+  def1.resolve("PROMISES");
+  def2.resolve("FTW");
 }, 650);
